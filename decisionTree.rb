@@ -1,5 +1,4 @@
 require 'decisiontree'
-require 'byebug'
 require_relative 'csv'
 
 parsing = csv_parser('data.csv')
@@ -18,3 +17,4 @@ decision = dec_tree.predict(test)
 print info
 
 puts "Predicted: #{decision}"
+# => 0

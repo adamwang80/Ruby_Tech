@@ -55,4 +55,13 @@ puts ____?
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
-# Use 'statistics'
+# Use 'statistics' to solve the a problem using the data from above: 
+
+# initialize a normal distribution using the average and standard deviation found above
+normal = Distribution::Normal.new(____?, ____?)
+
+# find the probability that a score is less than x if the data follows a normal distribution 
+# (chose any value in the range of scores for x)
+answer = normal.cumulative_function(____?)
+puts answer
+

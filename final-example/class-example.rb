@@ -1,5 +1,5 @@
 require 'descriptive_statistics'
-require 'statistics'
+require 'ruby-statistics'
 require 'decisiontree'
 require_relative 'csv'
 

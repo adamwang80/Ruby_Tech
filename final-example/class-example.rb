@@ -62,6 +62,7 @@ normal = Distribution::Normal.new(____?, ____?)
 
 # find the probability that a score is less than x if the data follows a normal distribution 
 # (chose any value in the range of scores for x)
-answer = normal.cumulative_function(____?)
-puts answer
+x = ___?
+answer = normal.cumulative_function(x)
+puts "\nThe probability that a score is less than #{x} is #{answer}"
 
